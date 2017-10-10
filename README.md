@@ -21,6 +21,8 @@ Using
 
     $ mqttAtk -u url -p port -n num_of_threads
 
+use mqttAtk -h to see more information
+
 + rfiAtk
 
 Installation
@@ -34,6 +36,8 @@ Using
     $ rfi_init -p port
     $ rfi -p port -d delay 
 
+use rfi_init -h & rfi -h to see more information
+
 + SleepDpAtk
 
 Installation
@@ -44,3 +48,5 @@ Installation
 Using
 
     $ Sleepdp_atk -p port -d delay
+
+use Sleepdp_atk -h to see more information
