@@ -9,3 +9,38 @@ Internet of Things (IoT) has achieved rapid developments in recent years. Nevert
 ![structure of DoS testing](https://github.com/CongBao/DoS-Tool-for-IoT-Testing/blob/master/model.png)
 
 ## How to use
+
++ mqttAtk
+
+Installation
+
+    $ sudo chmod +x ./mqttAtk.sh ./clear.sh
+    $ sudo ln -s mqttAtk /usr/bin/
+
+Using
+
+    $ mqttAtk -u url -p port -n num_of_threads
+
++ rfiAtk
+
+Installation
+
+    $ sudo chmod +x ./rfi_init.sh ./rfi.sh
+    $ sudo ln -s rfi_init /usr/bin
+    $ sudo ln -s rfi /usr/bin
+
+Using
+
+    $ rfi_init -p port
+    $ rfi -p port -d delay 
+
++ SleepDpAtk
+
+Installation
+
+    $ sudo chmod +x ./Sleepdp_attack.sh
+    $ sudo ln -s Sleepdp_attack /usr/bin
+
+Using
+
+    $ Sleepdp_atk -p port -d delay
